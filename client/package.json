@@ -1,26 +1,17 @@
 {
-  "name": "react-server",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://tictactoe.titilapierre.tech/",
-  "dependencies": {
-    "@craco/craco": "^7.1.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.29.0",
-    "react-scripts": "5.0.1"
-  },
+  "name": "tictactoe-client",
+  "version": "0.2.0",
+  "license": "ISC",
+  "author": "TitiLaPierre",
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^6.29.0"
   },
   "browserslist": {
     "production": [
@@ -33,5 +24,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.8"
   }
 }
